@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Betting Website</title>
+    <link rel="stylesheet" href="betting.css" />
+  </head>
+  <body>
+    <!-- <h1>Lou Williams Lemon Pepper SportsBook</h1> -->
+    <!-- <img id="Logo" src="./images/FE9E6A0A-1B12-4140-BCB6-CCFE9C2A67E5.png" /> -->
+    <h3>Game</h3>
+    <div class="GameRow">
+      <div class="Date">Apr 23</div>
+      <div class="GameTimeStart">7:30 Eastern</div>
+      <div id="awayScore"></div>
+      <div class="TeamNameLogo">
+        <img
+          class="teamImage"
+          src="./images/celtics.png"
+          alt="BOSTON CELTICS"
+        />
+        <span id="awayTeam" class="Team">Boston Celtics</span>
+      </div>
+      <div class="Spread">
+        <div class="btn-odds">+3 -110</div>
+      </div>
+    </div>
+    <div class="GameRow2">
+      <div id="homeScore"></div>
+      <div class="TeamNameLogo">
+        <img class="teamImage" src="./images/nets.png" alt="BROOKLYN NETS" />
+        <span id="homeTeam" class="Team">Brooklyn Nets</span>
+      </div>
+      <div class="Spread">
+        <div class="btn-odds">-3 -110</div>
+      </div>
+      <label for="wager">Choose your side</label>
+
+      <select name="wagerAmount" id="wagerSelection">
+        <option value="awayTeam">Boston Celtics</option>
+        <option value="homeTeam">Brooklyn Nets</option>
+      </select>
+      <p>Bankroll</p>
+      <p id="bank">300</p>
+      <input type="text" id="wager">
+      <input id="submitbtn" type="submit" value="Fire Away">
+    </div>
+    <script src="betting.js"></script>
+  </body>
+</html>

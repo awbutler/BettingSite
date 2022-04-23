@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    /* background-color: black; */
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.Date {
+    font-weight: bolder;
+    text-align: center;
+}
+.GameTimeStart {
+    font-weight: bolder;
+    text-align: center;
+}
+.btn-odds {
+    max-width: 120px;
+}
+.TeamNameLogo {
+    text-align: center;
+}
+.Spread {
+    text-align: center;
+}
